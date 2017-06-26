@@ -1,0 +1,60 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+
+.stopwatch{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top:20px;
+  font-size: 25pt;
+}
+
+
+.buttonStyle{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.toggleStyle{
+  height:50px;
+  width:125px;
+  color:white;
+  background:#4C4CEC;
+  font-size:15pt;
+  margin:10px;
+  border-radius:5px;
+}
+
+.resetStyle{
+  height:50px;
+  width:125px;
+  color:white;
+  background:grey;
+  font-size:15pt;
+  margin:10px;
+  border-radius:5px;
+}
